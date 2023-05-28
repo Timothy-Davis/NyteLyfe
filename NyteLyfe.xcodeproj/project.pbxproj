@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FFC932B2A23E57000A544B9 /* NyteLyfeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFC932A2A23E57000A544B9 /* NyteLyfeApp.swift */; };
+		8FFC932D2A23E57000A544B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFC932C2A23E57000A544B9 /* ContentView.swift */; };
+		8FFC932F2A23E57200A544B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FFC932E2A23E57200A544B9 /* Assets.xcassets */; };
+		8FFC93332A23E57200A544B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FFC93322A23E57200A544B9 /* Preview Assets.xcassets */; };
+		8FFC933D2A23E57200A544B9 /* NyteLyfeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFC933C2A23E57200A544B9 /* NyteLyfeTests.swift */; };
+		8FFC93472A23E57200A544B9 /* NyteLyfeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFC93462A23E57200A544B9 /* NyteLyfeUITests.swift */; };
+		8FFC93492A23E57200A544B9 /* NyteLyfeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFC93482A23E57200A544B9 /* NyteLyfeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FFC93392A23E57200A544B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FFC931F2A23E57000A544B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FFC93262A23E57000A544B9;
+			remoteInfo = NyteLyfe;
+		};
+		8FFC93432A23E57200A544B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FFC931F2A23E57000A544B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FFC93262A23E57000A544B9;
+			remoteInfo = NyteLyfe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FFC93272A23E57000A544B9 /* NyteLyfe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NyteLyfe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FFC932A2A23E57000A544B9 /* NyteLyfeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyteLyfeApp.swift; sourceTree = "<group>"; };
+		8FFC932C2A23E57000A544B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8FFC932E2A23E57200A544B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FFC93302A23E57200A544B9 /* NyteLyfe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NyteLyfe.entitlements; sourceTree = "<group>"; };
+		8FFC93322A23E57200A544B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8FFC93382A23E57200A544B9 /* NyteLyfeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NyteLyfeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FFC933C2A23E57200A544B9 /* NyteLyfeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyteLyfeTests.swift; sourceTree = "<group>"; };
+		8FFC93422A23E57200A544B9 /* NyteLyfeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NyteLyfeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FFC93462A23E57200A544B9 /* NyteLyfeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyteLyfeUITests.swift; sourceTree = "<group>"; };
+		8FFC93482A23E57200A544B9 /* NyteLyfeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyteLyfeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FFC93242A23E57000A544B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFC93352A23E57200A544B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFC933F2A23E57200A544B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FFC931E2A23E57000A544B9 = {
+			isa = PBXGroup;
+			children = (
+				8FFC93292A23E57000A544B9 /* NyteLyfe */,
+				8FFC933B2A23E57200A544B9 /* NyteLyfeTests */,
+				8FFC93452A23E57200A544B9 /* NyteLyfeUITests */,
+				8FFC93282A23E57000A544B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FFC93282A23E57000A544B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FFC93272A23E57000A544B9 /* NyteLyfe.app */,
+				8FFC93382A23E57200A544B9 /* NyteLyfeTests.xctest */,
+				8FFC93422A23E57200A544B9 /* NyteLyfeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FFC93292A23E57000A544B9 /* NyteLyfe */ = {
+			isa = PBXGroup;
+			children = (
+				8FFC932A2A23E57000A544B9 /* NyteLyfeApp.swift */,
+				8FFC932C2A23E57000A544B9 /* ContentView.swift */,
+				8FFC932E2A23E57200A544B9 /* Assets.xcassets */,
+				8FFC93302A23E57200A544B9 /* NyteLyfe.entitlements */,
+				8FFC93312A23E57200A544B9 /* Preview Content */,
+			);
+			path = NyteLyfe;
+			sourceTree = "<group>";
+		};
+		8FFC93312A23E57200A544B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8FFC93322A23E57200A544B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8FFC933B2A23E57200A544B9 /* NyteLyfeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FFC933C2A23E57200A544B9 /* NyteLyfeTests.swift */,
+			);
+			path = NyteLyfeTests;
+			sourceTree = "<group>";
+		};
+		8FFC93452A23E57200A544B9 /* NyteLyfeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FFC93462A23E57200A544B9 /* NyteLyfeUITests.swift */,
+				8FFC93482A23E57200A544B9 /* NyteLyfeUITestsLaunchTests.swift */,
+			);
+			path = NyteLyfeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FFC93262A23E57000A544B9 /* NyteLyfe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FFC934C2A23E57200A544B9 /* Build configuration list for PBXNativeTarget "NyteLyfe" */;
+			buildPhases = (
+				8FFC93232A23E57000A544B9 /* Sources */,
+				8FFC93242A23E57000A544B9 /* Frameworks */,
+				8FFC93252A23E57000A544B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NyteLyfe;
+			productName = NyteLyfe;
+			productReference = 8FFC93272A23E57000A544B9 /* NyteLyfe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FFC93372A23E57200A544B9 /* NyteLyfeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FFC934F2A23E57200A544B9 /* Build configuration list for PBXNativeTarget "NyteLyfeTests" */;
+			buildPhases = (
+				8FFC93342A23E57200A544B9 /* Sources */,
+				8FFC93352A23E57200A544B9 /* Frameworks */,
+				8FFC93362A23E57200A544B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FFC933A2A23E57200A544B9 /* PBXTargetDependency */,
+			);
+			name = NyteLyfeTests;
+			productName = NyteLyfeTests;
+			productReference = 8FFC93382A23E57200A544B9 /* NyteLyfeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FFC93412A23E57200A544B9 /* NyteLyfeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FFC93522A23E57200A544B9 /* Build configuration list for PBXNativeTarget "NyteLyfeUITests" */;
+			buildPhases = (
+				8FFC933E2A23E57200A544B9 /* Sources */,
+				8FFC933F2A23E57200A544B9 /* Frameworks */,
+				8FFC93402A23E57200A544B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FFC93442A23E57200A544B9 /* PBXTargetDependency */,
+			);
+			name = NyteLyfeUITests;
+			productName = NyteLyfeUITests;
+			productReference = 8FFC93422A23E57200A544B9 /* NyteLyfeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FFC931F2A23E57000A544B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8FFC93262A23E57000A544B9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8FFC93372A23E57200A544B9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8FFC93262A23E57000A544B9;
+					};
+					8FFC93412A23E57200A544B9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8FFC93262A23E57000A544B9;
+					};
+				};
+			};
+			buildConfigurationList = 8FFC93222A23E57000A544B9 /* Build configuration list for PBXProject "NyteLyfe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FFC931E2A23E57000A544B9;
+			productRefGroup = 8FFC93282A23E57000A544B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FFC93262A23E57000A544B9 /* NyteLyfe */,
+				8FFC93372A23E57200A544B9 /* NyteLyfeTests */,
+				8FFC93412A23E57200A544B9 /* NyteLyfeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FFC93252A23E57000A544B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FFC93332A23E57200A544B9 /* Preview Assets.xcassets in Resources */,
+				8FFC932F2A23E57200A544B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFC93362A23E57200A544B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFC93402A23E57200A544B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FFC93232A23E57000A544B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FFC932D2A23E57000A544B9 /* ContentView.swift in Sources */,
+				8FFC932B2A23E57000A544B9 /* NyteLyfeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFC93342A23E57200A544B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FFC933D2A23E57200A544B9 /* NyteLyfeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFC933E2A23E57200A544B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FFC93492A23E57200A544B9 /* NyteLyfeUITestsLaunchTests.swift in Sources */,
+				8FFC93472A23E57200A544B9 /* NyteLyfeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FFC933A2A23E57200A544B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FFC93262A23E57000A544B9 /* NyteLyfe */;
+			targetProxy = 8FFC93392A23E57200A544B9 /* PBXContainerItemProxy */;
+		};
+		8FFC93442A23E57200A544B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FFC93262A23E57000A544B9 /* NyteLyfe */;
+			targetProxy = 8FFC93432A23E57200A544B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8FFC934A2A23E57200A544B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FFC934B2A23E57200A544B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8FFC934D2A23E57200A544B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NyteLyfe/NyteLyfe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NyteLyfe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nytework.nytelyfe.NyteLyfe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FFC934E2A23E57200A544B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NyteLyfe/NyteLyfe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NyteLyfe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nytework.nytelyfe.NyteLyfe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FFC93502A23E57200A544B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nytework.nytelyfe.NyteLyfeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NyteLyfe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NyteLyfe";
+			};
+			name = Debug;
+		};
+		8FFC93512A23E57200A544B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nytework.nytelyfe.NyteLyfeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NyteLyfe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NyteLyfe";
+			};
+			name = Release;
+		};
+		8FFC93532A23E57200A544B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nytework.nytelyfe.NyteLyfeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NyteLyfe;
+			};
+			name = Debug;
+		};
+		8FFC93542A23E57200A544B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nytework.nytelyfe.NyteLyfeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NyteLyfe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FFC93222A23E57000A544B9 /* Build configuration list for PBXProject "NyteLyfe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FFC934A2A23E57200A544B9 /* Debug */,
+				8FFC934B2A23E57200A544B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FFC934C2A23E57200A544B9 /* Build configuration list for PBXNativeTarget "NyteLyfe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FFC934D2A23E57200A544B9 /* Debug */,
+				8FFC934E2A23E57200A544B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FFC934F2A23E57200A544B9 /* Build configuration list for PBXNativeTarget "NyteLyfeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FFC93502A23E57200A544B9 /* Debug */,
+				8FFC93512A23E57200A544B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FFC93522A23E57200A544B9 /* Build configuration list for PBXNativeTarget "NyteLyfeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FFC93532A23E57200A544B9 /* Debug */,
+				8FFC93542A23E57200A544B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FFC931F2A23E57000A544B9 /* Project object */;
+}
