@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F59F1292A32E7F6007C8264 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F59F1282A32E7F6007C8264 /* Themes.swift */; };
+		8F59F12B2A32ECB4007C8264 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F59F12A2A32ECB4007C8264 /* TopBar.swift */; };
+		8F59F12D2A332B9F007C8264 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F59F12C2A332B9F007C8264 /* TaskView.swift */; };
+		8F59F12F2A33399A007C8264 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F59F12E2A33399A007C8264 /* TagView.swift */; };
 		8FFC932B2A23E57000A544B9 /* NyteLyfeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFC932A2A23E57000A544B9 /* NyteLyfeApp.swift */; };
 		8FFC932D2A23E57000A544B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFC932C2A23E57000A544B9 /* ContentView.swift */; };
 		8FFC932F2A23E57200A544B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FFC932E2A23E57200A544B9 /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F59F1282A32E7F6007C8264 /* Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
+		8F59F12A2A32ECB4007C8264 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		8F59F12C2A332B9F007C8264 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		8F59F12E2A33399A007C8264 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 		8FFC93272A23E57000A544B9 /* NyteLyfe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NyteLyfe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FFC932A2A23E57000A544B9 /* NyteLyfeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyteLyfeApp.swift; sourceTree = "<group>"; };
 		8FFC932C2A23E57000A544B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +80,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F15B86B2A32E58F00EC5084 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FFC932C2A23E57000A544B9 /* ContentView.swift */,
+				8F59F12A2A32ECB4007C8264 /* TopBar.swift */,
+				8F59F12C2A332B9F007C8264 /* TaskView.swift */,
+				8F59F12E2A33399A007C8264 /* TagView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F15B86C2A32E59C00EC5084 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8FFC931E2A23E57000A544B9 = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +121,13 @@
 		8FFC93292A23E57000A544B9 /* NyteLyfe */ = {
 			isa = PBXGroup;
 			children = (
+				8F15B86C2A32E59C00EC5084 /* Model */,
+				8F15B86B2A32E58F00EC5084 /* View */,
 				8FFC932A2A23E57000A544B9 /* NyteLyfeApp.swift */,
-				8FFC932C2A23E57000A544B9 /* ContentView.swift */,
 				8FFC932E2A23E57200A544B9 /* Assets.xcassets */,
 				8FFC93302A23E57200A544B9 /* NyteLyfe.entitlements */,
 				8FFC93312A23E57200A544B9 /* Preview Content */,
+				8F59F1282A32E7F6007C8264 /* Themes.swift */,
 			);
 			path = NyteLyfe;
 			sourceTree = "<group>";
@@ -260,7 +288,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FFC932D2A23E57000A544B9 /* ContentView.swift in Sources */,
+				8F59F1292A32E7F6007C8264 /* Themes.swift in Sources */,
 				8FFC932B2A23E57000A544B9 /* NyteLyfeApp.swift in Sources */,
+				8F59F12D2A332B9F007C8264 /* TaskView.swift in Sources */,
+				8F59F12B2A32ECB4007C8264 /* TopBar.swift in Sources */,
+				8F59F12F2A33399A007C8264 /* TagView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
